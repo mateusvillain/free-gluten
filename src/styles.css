@@ -1,0 +1,147 @@
+:root {
+  --lui-brand-color-primary-1: #e6f6e9;
+  --lui-brand-color-primary-2: #c7ebcf;
+  --lui-brand-color-primary-3: #9cdaad;
+  --lui-brand-color-primary-4: #65bf7f;
+  --lui-brand-color-primary-5: #2f8f50;
+  --lui-brand-color-primary-6: #246f3e;
+  --lui-brand-color-primary-7: #1a4f2d;
+  --lui-brand-color-primary-8: #112f1b;
+  --lui-brand-color-secondary-1: #f6f7f5;
+  --lui-brand-color-secondary-2: #dbe0da;
+  --lui-brand-color-secondary-3: #bcc7bb;
+  --lui-brand-color-secondary-4: #798876;
+  --lui-brand-color-secondary-5: #4f5d4d;
+  --lui-brand-color-secondary-6: #3b4739;
+  --lui-brand-color-secondary-7: #283124;
+  --lui-brand-color-secondary-8: #141d12;
+  --lui-brand-typography-font-family-body: 'DM Sans', 'Segoe UI', sans-serif;
+  --lui-brand-typography-font-family-heading: 'DM Sans', 'Segoe UI', sans-serif;
+}
+
+html,
+body,
+#root {
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  min-height: 100svh;
+  background:
+    radial-gradient(circle at top right, #fff4d7 0, transparent 42%),
+    radial-gradient(circle at bottom left, #e8f9ef 0, transparent 48%),
+    var(--lui-color-neutral-background-surface);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 2.25rem 1.25rem 3rem;
+}
+
+.hero {
+  margin-bottom: 1rem;
+}
+
+.eyebrow {
+  margin: 0 0 0.5rem;
+  color: var(--lui-color-primary-icon-default);
+}
+
+.subtitle {
+  margin: 0.75rem 0 0;
+  max-width: 680px;
+}
+
+.results-count {
+  margin-top: 1rem;
+}
+
+.filters-panel {
+  background: color-mix(in srgb, var(--lui-color-neutral-background-surface) 88%, #ffffff 12%);
+  box-shadow: var(--lui-elevation-base);
+}
+
+.filters {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(200px, 1fr));
+  gap: 1rem;
+}
+
+.full-width {
+  grid-column: 1 / -1;
+}
+
+.filters input,
+.filters select {
+  width: 100%;
+}
+
+.restaurant-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+  gap: 1rem;
+}
+
+.restaurant-card {
+  display: flex;
+  box-shadow: var(--lui-elevation-base);
+}
+
+.restaurant-card .card__body {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+
+.card-top {
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+}
+
+.card-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.address {
+  margin: 0.2rem 0 0.1rem;
+}
+
+.links {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-top: auto;
+}
+
+.empty-state {
+  grid-column: 1 / -1;
+}
+
+.suggestion-section {
+  margin-top: 1.25rem;
+}
+
+@media (max-width: 640px) {
+  .app {
+    padding: 1.25rem 1rem 2rem;
+  }
+
+  .filters {
+    grid-template-columns: 1fr;
+  }
+
+  .full-width {
+    grid-column: auto;
+  }
+}
