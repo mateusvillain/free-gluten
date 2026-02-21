@@ -1,0 +1,65 @@
+[
+  {
+    "id": 1,
+    "nome": "Bem Dita Mistura",
+    "categoria": "Restaurante",
+    "tipoCardapio": "nao-possui-gluten",
+    "endereco": "Rua Antonio de Lucca, 219 - Pio Corrêa, 88811503",
+    "instagram": "https://www.instagram.com/bemditamistura/",
+    "whatsapp": "https://wa.me/554896259725"
+  },
+  {
+    "id": 2,
+    "nome": "Xapero Hamburgueria",
+    "categoria": "Hamburgueria",
+    "tipoCardapio": "opcoes-sem-gluten",
+    "endereco": "Rua Treze de Maio, 200 - Comerciario, 88802-290",
+    "instagram": "https://www.instagram.com/hamburgueriaxapero/",
+    "whatsapp": "https://wa.me/5548998366282"
+  },
+  {
+    "id": 3,
+    "nome": "Francisbel",
+    "categoria": "Padaria",
+    "tipoCardapio": "nao-possui-gluten",
+    "endereco": "Rua Joaquim Nabuco, 108 - Centro, 88802-200",
+    "instagram": "https://www.instagram.com/francisbelcozinhainclusiva/",
+    "whatsapp": "https://wa.me/5548988484134"
+  },
+  {
+    "id": 4,
+    "nome": "Natureza Mercato e Bistrô",
+    "categoria": "Restaurante",
+    "tipoCardapio": "nao-possui-gluten",
+    "endereco": "Rua Cel. Pedro Benedet, 333 - Centro, 88801-250",
+    "instagram": "https://www.instagram.com/naturezabistro/",
+    "whatsapp": "https://wa.me/5548988431830"
+  },
+  {
+    "id": 5,
+    "nome": "Quiero Café",
+    "categoria": "Cafeteria",
+    "tipoCardapio": "opcoes-sem-gluten",
+    "endereco": "Av. Getúlio Vargas, 270 - Centro, 88801-500",
+    "instagram": "https://www.instagram.com/quierocafeoficial/",
+    "whatsapp": "https://wa.me/5548991352880"
+  },
+  {
+    "id": 6,
+    "nome": "Sabores do Campo",
+    "categoria": "Cafeteria",
+    "tipoCardapio": "nao-possui-gluten",
+    "endereco": "Barão do Rio Branco, 224 - Centro, 88810-065",
+    "instagram": "https://www.instagram.com/sabores_do_campo/",
+    "whatsapp": "https://wa.me/5548999630320"
+  },
+  {
+    "id": 7,
+    "nome": "Outback Steakhouse",
+    "categoria": "Restaurante",
+    "tipoCardapio": "opcoes-sem-gluten",
+    "endereco": "Av. Jorge Elias de Lucca, 765 - Nossa Sra. da Salete, 88813-901",
+    "instagram": "https://www.instagram.com/outbackbrasil/",
+    "whatsapp": "https://wa.me/5548999630320"
+  }
+]
