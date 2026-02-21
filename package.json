@@ -1,0 +1,30 @@
+{
+  "name": "free-gluten",
+  "version": "0.0.0",
+  "description": "Lugares seguros para alimentação livre de glúten",
+  "homepage": "https://github.com/mateusvillain/free-gluten#readme",
+  "bugs": {
+    "url": "https://github.com/mateusvillain/free-gluten/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mateusvillain/free-gluten.git"
+  },
+  "license": "MIT",
+  "author": "Mateus Villain",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@lets-ui/css": "^0.17.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.4.1",
+    "vite": "^6.2.0"
+  }
+}
